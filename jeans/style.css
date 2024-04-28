@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    background-color: #ada4a4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 6%;
+}
+nav .logo{
+    font-size: 32px;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav .logo span{
+    color: #000 ;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    margin: 0 10px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+nav ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 0;
+    height: 2.5px;
+    transition: all 0.3s ease;
+}
+
+nav ul i{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.flex-box{
+    display: flex;
+    width: 1000px;
+}
+.left{
+    width: 40%;
+}
+.big-img{
+    width: 265px;
+    border: 2px solid #000; 
+}
+.big-img img{
+    width: 255px;
+}
+
+
+
+
+
+.url{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 102, 255);
+}
+.pname{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.ratings i{
+    color: rgb(255, 136, 0);
+}
+.price{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.size{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.size p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.psize{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    color: #000;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.psize.active{
+    border-width: 1.5px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.quantity{
+    display: flex;
+}
+.quantity p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.quantity input{
+    width: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+}
+.btn-box{
+    display: flex;
+    margin-top: 30px;
+}
+.btn-box button{
+    font-size: 18px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+/*/////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #dfdfdf; /* Updated background color */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f4edef; /* Updated background color */
+    padding: 10px 3%;
+    margin-bottom: 10px;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: black; /* Updated text color */
+}
+
+nav ul li a {
+    font-size: 14px;
+    margin: 0 5px;
+    color: #000; /* Updated text color */
+}
+.right {
+    margin-top: 10px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px ;
+    padding: 20px;
+    border-radius: 1px; /* Added border radius for a rounded appearance */
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.left, .right {
+    width: 48%;
+}
+
+.big-img {
+    width: 100%;
+    border: 1px solid #000000; /* Added border for a subtle outline */
+    border-radius: 1px; /* Added border radius for a rounded appearance */
+    overflow: hidden;
+    background-color: #fbfbfb;
+    box-shadow:1px 1px 0px  #dbdbdb;
+    margin-bottom: 0px;
+}
+
+
+
+.small-img {
+    width: 30%;
+    border: 1px solid #d5d2d2; /* Added border for a subtle outline */
+    border-radius: 0px; /* Added border radius for a rounded appearance */
+    box-shadow: 1px 1px rgb(213, 213, 213); /* Added border radius for a
+}
+
+.right {
+    margin-top: 0; /* Adjusted margin-top */
+}
+
+.pname {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333; /* Updated text color */
+}
+
+.ratings i {
+    font-size: 18px;
+    color: #b09cba ; /* Updated star color */
+}
+
+.price {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333; /* Updated text color */
+}
+
+.size p {
+    font-size: 16px;
+}
+
+.psize {
+    width: 40px;
+    height: 20px;
+    margin: 0 5px;
+    font-size: 14px; /* Updated font size */
+    color: #fff; /* Updated text color */
+    background-color: #3498db; /* Updated background color */
+    border: 1px solid #39434a; /* Updated border color */
+    border-radius: 4px; /* Added border radius for a rounded appearance */
+}
+
+.quantity p {
+    font-size: 16px;
+}
+
+.quantity input {
+    width: 30px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.btn-box button {
+    font-size: 16px;
+    padding: 10px 15px; /* Adjusted padding */
+    background-color: #b09cba; /* Updated background color */
+    color: #fff; /* Updated text color */
+    border: none;
+    border-radius: 4px; /* Added border radius for a rounded appearance */
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 819px) {
+  
+    
+  
+    
+    .flex-box {
+        flex-direction: column;
+        width: 90%;
+       
+        overflow: hidden;
+    }
+    
+        .left {
+            width: 100%;
+        }
+    
+        .big-img {
+            border: none;
+            
+            justify-content: center;
+            display: grid;
+        }
+    
+        
+       
+    
+        .small-img {
+            width: 010%;
+            margin-bottom: 10px;
+        }
+    
+        .right {
+            margin-top: 20px;
+        }
+    
+        .pname {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #000 
+        }
+    
+        .ratings i {
+            font-size: 18px;
+        }
+    
+        .price {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #000 ;
+        }
+    
+        .size p {
+            font-size: 16px;
+            color: #000 
+        }
+    
+        .psize {
+            width: 40px;
+            height: 20px;
+            margin: 0 5px;
+            font-size: 12px;
+        }
+    
+        .quantity p {
+            font-size: 16px;
+            color: #000 
+        }
+    
+        .quantity input {
+            width: 30px;
+            font-size: 14px;
+            margin-left: 10px;
+            margin-bottom: 0;
+        }
+    
+        .btn-box button {
+            font-size: 16px;
+            padding: 10px 15px;
+        }
+       
+        .psize {
+            width: 40px;
+            height: 20px;
+            margin: 0 5px;
+            font-size: 14px;
+            color: #fff;
+            background-color:  #000 ;
+            box-shadow: .5px .5px .5px .5px #cacaca;   
+        border: 1px solid linear-gradient(45deg,  #acacac , #979696);
+            transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for a smooth effect */
+        }
+        
+       
+        .psize.clicked {
+            color: #000 ;
+            background-color: #f4edef; /* Change the background color as needed */
+        }
+        .about .pop-img{
+            position: fixed ;
+            top: 0;
+            left: 0;
+            background-color: rgba(52, 52, 52, 0.5);
+          
+            backdrop-filter: blur(10px); 
+            height: 100% ;
+            width: 100%;
+            z-index: 100;
+            display: none;
+            
+          }
+          .about .pop-img span{
+            position: absolute;
+            top: 0px ;
+            right: 10px;
+            font-size: 60px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0) ;
+            cursor: pointer;
+            z-index: 100;
+          
+          }
+          .about .pop-img img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+           
+            transform:translate(-50%,-50%) ;
+            height: 650px;
+            width: 520px;
+            object-fit: cover;
+            
+          }
+          .cart-btn{
+            background-color: #683187;
+            margin-right: 20px;
+        }
+        .buy-btn{
+            background-color: #000 ;
+        }
+       
+       
+       
+
+        
+        
+          
+
+    
+}
+
+/*
+white:#f4edef
+#000    2a2wa shi
+#683187   2kal shway
+#b09cba   rmede
+
+
+*/
+
+.small-img img{
+    width: 52px;
+    display: flex;
+    padding: 5px;
+}
+.small-img{
+    margin: 3px;
+    width: 70px;
+    justify-content: center;
+    display: flex;
+    background-color: #f8f8f8;
+    position: relative;
+    bottom: 6px;
+    left: 3px;
+}
+.newm{
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    
+}
+body {
+    background-color: #fdfdfd;
+}
+.price{
+    position: absolute;
+    top: 48.4%;
+    left: 77%;
+}
